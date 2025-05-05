@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/logo.png" alt="SavvyCart Logo" width="200"/>
+</p>
 # 🛒 SavvyCart
 
 SavvyCart is a console-based product management system that allows users to view, search, and add grocery products using a local SQLite database.
