@@ -1,0 +1,36 @@
+[
+        {
+        "id": "p003",
+        "name": "Chocolate Bar",
+        "brand": "Elite",
+        "category": "Sweets",
+        "storeName": "Shufersal",
+        "pricePerUnit": 4.5,
+        "isInStock": true,
+        "deliveryAvailable": true,
+        "quantity": 1,
+        "unit": "unit",
+        "volume": 1.0,
+        "imageUrl": "https://example.com/chocolate.jpg",
+        "discount": 0.0,
+        "expirationDate": "2025-07-01",
+        "tags": ["kosher", "sweet"]
+        },
+        {
+        "id": "p004",
+        "name": "Tomato",
+        "brand": "",
+        "category": "Vegetables",
+        "storeName": "Victory",
+        "pricePerUnit": 3.2,
+        "isInStock": true,
+        "deliveryAvailable": false,
+        "quantity": 5,
+        "unit": "kg",
+        "volume": 5.0,
+        "imageUrl": "https://example.com/tomato.jpg",
+        "discount": 5.0,
+        "expirationDate": "2025-05-15",
+        "tags": ["organic", "fresh"]
+    }
+]

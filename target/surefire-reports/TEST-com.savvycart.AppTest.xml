@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.savvycart.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.savvycart.AppTest" time="0.033" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1255"/>
-    <property name="java.class.path" value="C:\Users\ASUS\Desktop\SavvyCart\target\test-classes;C:\Users\ASUS\Desktop\SavvyCart\target\classes;C:\Users\ASUS\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.45.1.0\sqlite-jdbc-3.45.1.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="java.class.path" value="c:\Users\ASUS\Desktop\SavvyCart\target\test-classes;c:\Users\ASUS\Desktop\SavvyCart\target\classes;C:\Users\ASUS\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.45.1.0\sqlite-jdbc-3.45.1.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IL"/>
     <property name="sun.boot.library.path" value="C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire5225965941843657778\surefirebooter-20250505131555193_3.jar C:\Users\ASUS\AppData\Local\Temp\surefire5225965941843657778 2025-05-05T13-15-55_075-jvmRun1 surefire-20250505131555193_1tmp surefire_0-20250505131555193_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire13422631401696287417\surefirebooter-20250505141039809_3.jar C:\Users\ASUS\AppData\Local\Temp\surefire13422631401696287417 2025-05-05T14-10-39_686-jvmRun1 surefire-20250505141039809_1tmp surefire_0-20250505141039809_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\ASUS\Desktop\SavvyCart\target\test-classes;C:\Users\ASUS\Desktop\SavvyCart\target\classes;C:\Users\ASUS\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.45.1.0\sqlite-jdbc-3.45.1.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
+    <property name="surefire.test.class.path" value="c:\Users\ASUS\Desktop\SavvyCart\target\test-classes;c:\Users\ASUS\Desktop\SavvyCart\target\classes;C:\Users\ASUS\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.45.1.0\sqlite-jdbc-3.45.1.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ASUS"/>
     <property name="user.language" value="he"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-04-15"/>
     <property name="java.home" value="C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\ASUS\Desktop\SavvyCart"/>
+    <property name="basedir" value="c:\Users\ASUS\Desktop\SavvyCart"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire5225965941843657778\surefirebooter-20250505131555193_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire13422631401696287417\surefirebooter-20250505141039809_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
     <property name="java.version" value="24.0.1"/>
-    <property name="user.dir" value="C:\Users\ASUS\Desktop\SavvyCart"/>
+    <property name="user.dir" value="c:\Users\ASUS\Desktop\SavvyCart"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>

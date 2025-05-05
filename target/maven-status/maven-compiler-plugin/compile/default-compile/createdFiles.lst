@@ -1,4 +1,5 @@
 com\savvycart\DatabaseManager.class
+com\savvycart\ConsoleMenu.class
 com\savvycart\Cart.class
 com\savvycart\Product.class
 com\savvycart\App.class

@@ -7,6 +7,8 @@ public class App {
     public static void main(String[] args) {
         // אתחול מסד הנתונים
         DatabaseManager.initializeDatabase();
+        JsonProductLoader.loadProductsFromJson("src/main/java/com/savvycart/products.json");
+
 
         // יצירת מוצרים לבדיקה
         Product milk = new Product(
