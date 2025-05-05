@@ -1,35 +1,35 @@
 package com.savvycart;
 
 import java.time.LocalDate;
-import java.util.Arrays;
+import java.util.List;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args ){
+public class App {
+    public static void main(String[] args) {
+        // יצירת בסיס הנתונים (אם לא קיים)
+        DatabaseManager.initializeDatabase();
+
         Product milk = new Product(
-            "p001",
-            "חלב 3%",
-            "תנובה",
-            "מוצרי חלב",
-            "שופרסל",
-            6.90,
-            6.90,
-            true,
-            true,
-            1,
-            "ליטר",
-            1.0,
-            "https://example.com/milk.jpg",
-            0.0,
-            LocalDate.of(2025, 5, 20),
-            Arrays.asList("כשר", "ללא חומרים משמרים")
+            "p001", "Milk 3%", "Tnuva", "Dairy", "Shufersal",
+            6.90, true, true,
+            1, "liter", 1.0, "https://example.com/milk.jpg",
+            0.0, LocalDate.of(2025, 5, 20), List.of("kosher", "no preservatives")
         );
 
-        System.out.println("🛒 מוצר לדוגמה:");
-        System.out.println(milk);
+        Product cheese = new Product(
+            "p002", "Yellow Cheese", "Tnuva", "Dairy", "Victory",
+            1.20, true, false,
+            10, "grams", 1.0, "https://example.com/cheese.jpg",
+            10.0, LocalDate.of(2025, 5, 18), List.of("kosher", "vegetarian")
+        );
+
+        // עגלה והצגה
+        Cart cart = new Cart();
+        cart.addProduct(milk);
+        cart.addProduct(cheese);
+        cart.displayCart();
+
+        // הוספה למסד הנתונים
+        DatabaseManager.insertProduct(milk);
+        DatabaseManager.insertProduct(cheese);
     }
 }
