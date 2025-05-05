@@ -5,9 +5,10 @@ import java.util.List;
 
 public class App {
     public static void main(String[] args) {
-        // יצירת בסיס הנתונים (אם לא קיים)
+        // אתחול מסד הנתונים
         DatabaseManager.initializeDatabase();
 
+        // יצירת מוצרים לבדיקה
         Product milk = new Product(
             "p001", "Milk 3%", "Tnuva", "Dairy", "Shufersal",
             6.90, true, true,
@@ -22,14 +23,11 @@ public class App {
             10.0, LocalDate.of(2025, 5, 18), List.of("kosher", "vegetarian")
         );
 
-        // עגלה והצגה
-        Cart cart = new Cart();
-        cart.addProduct(milk);
-        cart.addProduct(cheese);
-        cart.displayCart();
-
-        // הוספה למסד הנתונים
+        // הכנסת מוצרים למסד הנתונים
         DatabaseManager.insertProduct(milk);
         DatabaseManager.insertProduct(cheese);
+
+        // הרצת תפריט קונסול אינטראקטיבי
+        ConsoleMenu.start();
     }
 }
